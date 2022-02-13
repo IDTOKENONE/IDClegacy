@@ -1,3 +1,12 @@
+# Notes
+
+make sure to change terra station to testnet
+
+```
+nvm use 14
+npm install
+npm start
+```
 # Astroport Token Sales Frontend
 Frontend app to buy & sell tokens using [Astroport's LBP contracts](https://github.com/astroport-fi/astroport-lbp/).
 
