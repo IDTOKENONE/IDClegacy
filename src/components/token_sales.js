@@ -48,8 +48,10 @@ function TokenSales() {
           lbps.filter((lbp) => lbp.end_time <= currentTime)
         ));
 
+        // swapped from lbp.start_time <= currentTime && lbp.end_time > currentTime
+        // to true
         const currentPair = lbps.find(
-          (lbp) => lbp.start_time <= currentTime && lbp.end_time > currentTime
+          (lbp) => true
         );
 
         // If there's an ongoing sale,
