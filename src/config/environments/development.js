@@ -1,6 +1,6 @@
 module.exports = {
   networks: {
-    classic: {
+    mainnet: {
     lcdURL: 'https://lcd.terra.dev',
     chainID: 'columbus-5',
     factoryContractAddress: 'terra1fnywlw4edny3vw44x04xd67uzkdqluymgreu7g',
