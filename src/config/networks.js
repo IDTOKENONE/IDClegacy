@@ -9,9 +9,9 @@ export const networks = {
   classic: {
     lcdURL: 'https://lcd.terra.dev',
     chainID: 'columbus-5',
-    factoryContractAddress: 'terra1fnywlw4edny3vw44x04xd67uzkdqluymgreu7g',
+    factoryContractAddress: 'terra1jkndu9w5attpz09ut02sgey5dd3e8sq5watzm0',
     gasPrices: { uusd: 0.15 },
-    allowedPairContracts: [ 'terra1l7xu2rl3c7qmtx3r5sd2tz25glf6jh8ul7aag7'
+    allowedPairContracts: [ 'terra1wqvhrrzkcn7dv2rkd5gdq2prawm64g7lnasy47'
       
     ]
   },
