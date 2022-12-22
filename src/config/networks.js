@@ -21,7 +21,7 @@ export const networks = {
     factoryContractAddress: 'terra1nt459erudaug8d2vsqjmhv7zc9c9vmamj3esn9',
     gasPrices: { uusd: 0.15 },
     allowedPairContracts: [
-      'terra1vmsnmx6q3amlhrkzy8yelefxdv572rw5m4qeec'
+      'terra1sz988qp6vma3j0xj5w7fsskqcuc8kjn0mmtcqc'
     ]
   },
   ...envNetworks
