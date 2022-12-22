@@ -6,7 +6,7 @@ if(process.env.NODE_ENV !== 'production') {
 }
 
 export const networks = {
-  mainnet: {
+  classic: {
     lcdURL: 'https://lcd.terra.dev',
     chainID: 'columbus-5',
     factoryContractAddress: 'terra1fnywlw4edny3vw44x04xd67uzkdqluymgreu7g',
