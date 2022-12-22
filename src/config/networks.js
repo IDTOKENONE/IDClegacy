@@ -7,8 +7,8 @@ if(process.env.NODE_ENV !== 'production') {
 
 export const networks = {
   mainnet: {
-    lcdURL: 'https://pisco-lcd.terra.dev/',
-    chainID: 'pisco-1',
+    lcdURL: 'https://lcd.terra.dev',
+    chainID: 'columbus-5',
     factoryContractAddress: '', // Fill in with your project's factory contract
     gasPrices: { uusd: 0.15 },
     allowedPairContracts: [
