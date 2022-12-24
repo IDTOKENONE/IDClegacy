@@ -10,7 +10,7 @@ function ConnectedWallet() {
   return (
     <div className="flex items-center connected-wallet">
       {
-        network.chainID !== networks.mainnet.chainID &&
+        network.chainID !== networks.classic.chainID &&
         <small className="connected-wallet__chain-id">{network.chainID}</small>
       }
 
